@@ -3,8 +3,8 @@ import { AiFillTags } from "react-icons/ai";
 
 const OfficerCard = () => {
   return (
-    <section className="rounded-md border-gray-300 border-[1px] p-6 flex flex-col gap-y-7">
-      <article className="flex justify-between text-2xl">
+    <section className="rounded-md border-gray-300 border-[1px] px-6 py-4 flex flex-col gap-y-7">
+      <article className="flex justify-between items-center text-2xl">
         <span className="text-yellow-500">
           <MdWavingHand />
         </span>
