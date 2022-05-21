@@ -1,4 +1,4 @@
-import NoticeBoard from "./NoticeBoard";
+import NoticeBoard from "./notice/NoticeBoard";
 import OfficerCard from "./OfficerCard";
 import StatusCard from "./StatusCard";
 import TodosCard from "./TodosCard";
