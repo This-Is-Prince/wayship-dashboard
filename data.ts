@@ -32,4 +32,42 @@ const impNoticeData = [
     seen: 1,
   },
 ];
-export { asideButtonsNames, noticeData, impNoticeData };
+
+const todosData = [
+  {
+    id: 0,
+    title: "Deck Log | 1200 - 1600 Watch",
+    by: "Wayship",
+    due: "",
+    isCompleted: true,
+  },
+  {
+    id: 1,
+    title: "COVID19 Health Guidelines",
+    by: "Technical",
+    due: "2 days",
+    isCompleted: false,
+  },
+  {
+    id: 2,
+    title: "Steering Check",
+    by: "Captain",
+    due: "2 hours",
+    isCompleted: false,
+  },
+  {
+    id: 3,
+    title: "ECDIS Check",
+    by: "Chief Officer",
+    due: "6 hours",
+    isCompleted: false,
+  },
+  {
+    id: 4,
+    title: "Review Noon Report",
+    by: "Self",
+    due: "8 hours",
+    isCompleted: false,
+  },
+];
+export { asideButtonsNames, noticeData, impNoticeData, todosData };
