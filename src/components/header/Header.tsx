@@ -3,7 +3,7 @@ import { TiPower } from "react-icons/ti";
 
 const Header = () => {
   return (
-    <header className="p-3 border-[1px] border-gray-300 rounded-md flex justify-between items-center">
+    <header className="p-3 border-[1px] col-span-full border-gray-300 rounded-md flex justify-between items-center md:col-span-1">
       <section className="flex gap-x-3 items-center text-gray-600">
         <span className="text-3xl">
           <GiCargoShip />
