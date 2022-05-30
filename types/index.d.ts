@@ -16,4 +16,11 @@ interface GetAsideButtonIconProps {
   name: ButtonNames;
 }
 
-export { AsideButtonProps, GetAsideButtonIconProps, ButtonNames };
+type HandleTodoComplete = (id: string | number) => void;
+
+export {
+  AsideButtonProps,
+  GetAsideButtonIconProps,
+  ButtonNames,
+  HandleTodoComplete,
+};
